@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-global-mentoring-repo-by-siarhei-rudak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task_1.1": "nodemon --exec babel-node ./homework_1/reverser.js",
+    "task_1.2": "nodemon --exec babel-node ./homework_1/csv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.epam.com:siarhei_rudak/nodejs-global-mentoring-repo-by-siarhei-rudak.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.13.10",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/polyfill": "^7.12.1"
+  }
+}
